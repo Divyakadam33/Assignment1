@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="portfoliodesign.css">
+</head>
+<body>
+    <header>
+        <h2 style="
+        margin-left: 50px;
+    ">Portfolio</h2>
+        <nav class="neon-nav">
+            <ul>
+                <li><a href="#home">Home<span></span></a></li>
+                <li><a href="#about">About<span></span></a></li>
+                <li><a href="#skills">Skills<span></span></a></li>
+                <li><a href="#projects">Projects<span></span></a></li>
+                <li><a href="#contact">Contact<span></span></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home" style="
+        padding-top: 150px;
+        padding-bottom: 150px;
+        margin-bottom: 0px;
+    ">
+            <p style="font-size: 170%;margin-bottom: 0px;">Hii,I'm</p>
+            <h2><p class="hover-text" style="margin-bottom: 0px;">Divya Kadam</p></h2>
+                <p style="font-size: 170%;">and Computer Science Student </p>
+                <p>I strive to create captivating and inspiring web experiences that delight users.</p>
+            <a href="#projects" class="btn">View Projects</a></section>
+        <section id="about">
+            <h2>About me</h2>
+            <p>I am delighted to introduce myself as a web design student with a solid background in computer science. I possess a unique combination of technical skills and creative talent, and I am enthusiastic about developing user-friendly and visually attractive web interfaces that captivate and motivate visitors.<br>
+                I am currently pursuing my Bachelor's degree in Computer Science from Viva College in Virar, where I have developed a robust foundation in fundamental concepts such as algorithms, data structures, and software engineering. My academic journey has equipped me with a deep understanding of these concepts, which I have been able to apply in various real-world situations. I am confident in my technical abilities,<br>
+                 and I am now supplementing my knowledge with specialized training in web design to further improve my skills.<br>
+                 My journey into web design has been a long and fascinating one, driven by my deep interest in the intersection of technology and creativity. As a computer science student, I have always been fascinated by the boundless potential of the web to connect people, ideas, and information across the globe. To me, web design represents the perfect marriage of form and function, where aesthetics and usability converge to create powerful user experiences.
+
+Through my studies and personal projects, I have delved deep into the intricacies of web design, learning about everything from HTML and CSS to responsive design and UX/UI principles. My goal is to create intuitive and engaging user interfaces that not only look great but also function flawlessly. I believe that web design has the power to change the way people interact with technology, making it more accessible, intuitive, and enjoyable for everyone.
+
+In conclusion, for me, web design is not just a job or a hobby, but a true passion. I am constantly seeking new ways to push the boundaries of what is possible and to create innovative solutions that meet the needs of users in a rapidly evolving digital landscape.
+                </p>
+        </section>
+        <section id="skills" style="color: black;">
+            <h1 style="text-align: center;padding: 40px;">My Skills</h1>
+            <div class="skill-bar">
+                <div class="skill-name">HTML</div>
+                <div class="skill-level" style="--skill-level: 90%;height: 10px;">90%</div>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-name">CSS</div>
+                <div class="skill-level" style="--skill-level: 80%;height: 10px;">80%</div>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-name">JavaScript</div>
+                <div class="skill-level" style="--skill-level: 90%;height: 10px;">90%</div>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-name">SQL</div>
+                <div class="skill-level" style="--skill-level: 60%;height: 10px;">60%</div>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-name">Java</div>
+                <div class="skill-level" style="--skill-level: 50%;height: 10px;">50%</div>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-name">Python</div>
+                <div class="skill-level" style="--skill-level: 75%;height: 10px;">75%</div>
+              </div>
+        </section>
+        <section id="projects" style="
+        height: 700px;background: linear-gradient(to bottom, rgb(157, 5, 134), rgb(49, 2, 202));
+    ">
+            <h1 style="text-align: center;margin-top: 40px;color:aliceblue">Projects</h1>
+            <div class="card" style="margin-top: 50px;position: absolute;left: 600px;">
+                <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/What_Is_a_Project.jpg" alt="Image" class="card-image">
+                <div class="card-content">
+                  <h3 class="card-title">Project 1</h3>
+                  <p class="card-text"> Create a responsive Webside by using CSS and Sass and media queries</p>
+                  <a href="https://github.com/Divyakadam33/Assignment/blob/main/taskb2.html" class="card-button">Read More</a>
+        </section>
+            
+
+        <section id="contact" style="height: 600px;background: linear-gradient(to bottom, rgb(251, 250, 251), rgb(73, 107, 242));
+    ">
+            <h2 style="margin-left: 20px;">Contact Me</h2>
+            <div class="contact-form" style="margin-left: 20px;">
+              <form action="submit.php" method="POST">
+                <div class="form-group">
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                  <label for="message">Message:</label>
+                  <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit">Send</button>
+              </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;2023 My Portfolio.All rights reserved</p>
+    </footer>
+</body>
+</html>
